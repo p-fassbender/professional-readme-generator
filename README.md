@@ -29,9 +29,9 @@ Navigate to the root directory in the terminal and type **node run index.js** to
 ---
 
 ## Media
-![Insert gif here]()
+![Insert gif here](./assets/professional-readme-generator.gif)
 
-![Insert screenshot here]()
+![Insert screenshot here](./assets/professional-readme-generator.png)
 
 The following link is to this project's github repository
 https://github.com/p-fassbender/professional-readme-generator

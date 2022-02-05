@@ -119,13 +119,13 @@ const questions = [
 ];
 
 const mockData = {
-    name: "Project Name",
-    description: "This is a short description explaining the what, why, and how of the project. What was my motivation? Why did I build this project? What problem does it solve? What did I learn?",
-    installation: "These are the steps required to install my project",
-    use: "These are instructions and examples for using this project",
-    contribution: "These are guidelines for how other developers if they would like to contribute to this project",
-    testing: "I went the extra mile and wrote tests for my application. These are examples on how to run them",
-    license: "The Unilicense",
+    name: "Weather Dashboard",
+    description: "This project was to create a weather dashboard application so that the current weather conditions along with a 5-day future forcast are displayed for a user-searched city. As a traveler I am interested in the weather outlook of multiple city so I can plan my trips accordingly. Working on this project I learned how to fetch information from server-side apis and how to manage and use the recieved data.",
+    installation: "No installation is needed for this project",
+    use: "To use this project just go to the live website https://p-fassbender.github.io/weather-dashboard/, type in a city name, and hit search",
+    contribution: "If you or another developer would like to contribute to this project then all I ask is that you follow the Contributor Covenant Code of Conduct https://www.contributor-covenant.org/",
+    testing: "There are no formal tests for this project",
+    license: "N/A",
     username: "p-fassbender",
     email: "fassbenderp0551@gmail.com"
 }
