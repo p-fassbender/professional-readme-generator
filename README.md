@@ -1,43 +1,67 @@
- ![badge](<https://img.shields.io/badge/License-The Unilicense-blue>)
+# Professional README Generator
 
-# Project Name
-
-## Description
-This is a short description explaining the what, why, and how of the project. What was my motivation? Why did I build this project? What problem does it solve? What did I learn?
+The aim of this project was to provide a quick way to generate a professional readme for a new project based off of user input obtained via the command line
 
 ## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
+[Technologies Used](#technologies-used) <br>
+[Installation](#installation) <br>
+[Usage](#use) <br>
+[Media](#media) <br>
+[Questions](#questions) <br>
+
+## Technologies Used
+* Node
+* npm Inquirer
+* JavaScript
+
+with a focus on using node and its packages
 
 ---
 
 ## Installation
-These are the steps required to install my project
+Navigate to the root directory in the terminal and initialize the project with **npm init** to install all the proper node module dependencies
 
 ---
 
-## Usage
-These are instructions and examples for using this project
+## Use
+Navigate to the root directory in the terminal and type **node run index.js** to run the project
 
 ---
 
-## License
-This project is licensed under The Unilicense
+## Media
+![Insert gif here]()
 
----
+![Insert screenshot here]()
 
-## How To Contribute
-These are guidelines for how other developers if they would like to contribute to this project
-
----
-
-## Tests
-I went the extra mile and wrote tests for my application. These are examples on how to run them
+The following link is to this project's github repository
+https://github.com/p-fassbender/professional-readme-generator
 
 ---
 
 ## Questions
-Check out my github profile at <https://github.com/p-fassbender>
+Any questions feel free to contact me via [my github](https://github.com/p-fassbender) or by sending me an email at fassbenderp0551@gmail.com.
 
-If you have any questions send me an email at fassbenderp0551@gmail.com
+
+---
+
+## USER STORY
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
+
+## ACCEPTANCE CRITERIA
+* GIVEN a command-line application that accepts user input
+* WHEN I am prompted for information about my application repository
+THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+* WHEN I enter my project title
+THEN this is displayed as the title of the README
+* WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+* WHEN I choose a license for my application from a list of options
+THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+* WHEN I enter my GitHub username
+THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+* WHEN I enter my email address
+THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+* WHEN I click on the links in the Table of Contents
+THEN I am taken to the corresponding section of the README

@@ -150,10 +150,10 @@ function writeToFile(fileName, data) {
 const init = () => {
     inquirer.prompt(questions)
         .then(markdownData => {
-            return generateMarkdown(mockData);
+            return generateMarkdown(mockData); // replace mockData with markdownData
         })
         .then(pageMarkdown => {
-            return writeToFile("./README.md", pageMarkdown)
+            return writeToFile("./dist/README.md", pageMarkdown)
         })
         .catch(err => {
             console.log(err);
