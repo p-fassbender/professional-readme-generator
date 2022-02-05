@@ -14,7 +14,7 @@ function renderLicenseLink(license) {
     if (!license) {
         return "";
     } else {
-        return `[License](#license)`
+        return `\n- [License](#license)`
     }
 }
 
@@ -24,8 +24,12 @@ function renderLicenseSection(license) {
     if (!license) {
         return "";
     } else {
-        return `## License
-This project is licensed under ${license}`
+        return `
+## License
+This project is licensed under ${license}
+
+---
+`
     }
 }
 
@@ -41,8 +45,10 @@ ${data.description}
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
-- ${renderLicenseLink(data.license)}
+- [Usage](#usage)${renderLicenseLink(data.license)}
+- [Contribution](#how-to-contribute)
+- [Testing](#tests)
+- [Questions](#questions)
 
 ---
 
@@ -55,11 +61,7 @@ ${data.installation}
 ${data.use}
 
 ---
-
 ${renderLicenseSection(data.license)}
-
----
-
 ## How To Contribute
 ${data.contribution}
 

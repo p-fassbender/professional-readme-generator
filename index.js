@@ -125,7 +125,7 @@ const mockData = {
     use: "To use this project just go to the live website https://p-fassbender.github.io/weather-dashboard/, type in a city name, and hit search",
     contribution: "If you or another developer would like to contribute to this project then all I ask is that you follow the Contributor Covenant Code of Conduct https://www.contributor-covenant.org/",
     testing: "There are no formal tests for this project",
-    license: "N/A",
+    license: "Boost Software License 1.0",
     username: "p-fassbender",
     email: "fassbenderp0551@gmail.com"
 }
