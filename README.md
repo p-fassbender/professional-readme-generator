@@ -29,7 +29,7 @@ Navigate to the root directory in the terminal and type **node run index.js** to
 ---
 
 ## Media
-![Insert gif here](./assets/professional-readme-generator.gif)
+https://user-images.githubusercontent.com/36012762/152847324-a4fa6598-7b0a-4f7f-b91b-57a80c07a9df.mp4
 
 ![Insert screenshot here](./assets/professional-readme-generator.png)
 
