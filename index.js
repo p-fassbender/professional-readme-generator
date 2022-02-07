@@ -150,7 +150,7 @@ function writeToFile(fileName, data) {
 const init = () => {
     inquirer.prompt(questions)
         .then(markdownData => {
-            return generateMarkdown(mockData); // replace mockData with markdownData
+            return generateMarkdown(markdownData); // replace mockData with markdownData
         })
         .then(pageMarkdown => {
             return writeToFile("./dist/README.md", pageMarkdown)
