@@ -19,7 +19,7 @@ with a focus on using node and its packages
 ---
 
 ## Installation
-Navigate to the root directory in the terminal and initialize the project with **npm init** to install all the proper node module dependencies
+Navigate to the root directory in the terminal and initialize the project with **npm install** to install all the proper node module dependencies
 
 ---
 
